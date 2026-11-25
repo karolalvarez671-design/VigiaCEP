@@ -1,0 +1,1333 @@
+{
+ "especificacion": {
+  "nominal": 450.0,
+  "LIE": 447.0,
+  "LSE": 453.0
+ },
+ "exclusiones_variables": {
+  "9": "Cambio de disco a las 10:00 sin reajustar el tope (bitácora de campo)",
+  "17": "Error de lectura o de anotación en la pieza 3, anotada como 442 mm (bitácora de campo)"
+ },
+ "exclusiones_atributos": {
+  "12": "Lote nuevo de electrodos E6013 sin resguardo contra la humedad (planilla del inspector)"
+ },
+ "descriptiva_f1": {
+  "Número de datos (N)": 125.0,
+  "Media": 450.628,
+  "Mediana": 450.5,
+  "Desviación estándar (s)": 1.2063407746222163,
+  "Varianza": 1.455258064516129,
+  "Coeficiente de variación (%)": 0.2677021344928004,
+  "Mínimo": 442.0,
+  "Cuartil 1": 450.0,
+  "Cuartil 3": 451.0,
+  "Máximo": 453.5,
+  "Rango": 11.5,
+  "Asimetría": -2.7114654393366138,
+  "Curtosis (exceso)": 20.333268163051432
+ },
+ "descriptiva_todo": {
+  "Número de datos (N)": 200.0,
+  "Media": 450.9375,
+  "Mediana": 451.0,
+  "Desviación estándar (s)": 1.281818647557497,
+  "Varianza": 1.6430590452261309,
+  "Coeficiente de variación (%)": 0.28425638753873805,
+  "Mínimo": 442.0,
+  "Cuartil 1": 450.5,
+  "Cuartil 3": 451.5,
+  "Máximo": 454.5,
+  "Rango": 12.5,
+  "Asimetría": -1.2279842862416699,
+  "Curtosis (exceso)": 11.212887178367023
+ },
+ "atipicos": [
+  {
+   "fila": 10,
+   "subgrupo": "9",
+   "valor": 453.5
+  },
+  {
+   "fila": 18,
+   "subgrupo": "17",
+   "valor": 442.0
+  },
+  {
+   "fila": 26,
+   "subgrupo": "25",
+   "valor": 448.5
+  },
+  {
+   "fila": 39,
+   "subgrupo": "38",
+   "valor": 453.5
+  },
+  {
+   "fila": 39,
+   "subgrupo": "38",
+   "valor": 453.5
+  },
+  {
+   "fila": 40,
+   "subgrupo": "39",
+   "valor": 453.5
+  },
+  {
+   "fila": 40,
+   "subgrupo": "39",
+   "valor": 453.5
+  },
+  {
+   "fila": 40,
+   "subgrupo": "39",
+   "valor": 454.5
+  },
+  {
+   "fila": 40,
+   "subgrupo": "39",
+   "valor": 454.0
+  },
+  {
+   "fila": 41,
+   "subgrupo": "40",
+   "valor": 453.5
+  },
+  {
+   "fila": 41,
+   "subgrupo": "40",
+   "valor": 453.5
+  },
+  {
+   "fila": 41,
+   "subgrupo": "40",
+   "valor": 454.0
+  }
+ ],
+ "cercas": [
+  449.0,
+  453.0
+ ],
+ "prueba": {
+  "media": 450.62800000000004,
+  "rbar": 2.06,
+  "sigma": 0.8856672384809517,
+  "lim_x": [
+   449.4397527095873,
+   451.8162472904128
+  ],
+  "lim_r": [
+   0.0,
+   4.355862042279862
+  ],
+  "senales": [
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "I",
+    "Subgrupo/muestra": "9",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "I",
+    "Subgrupo/muestra": "17",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "35",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "36",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "36",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico R (rangos)",
+    "Fase": "I",
+    "Subgrupo/muestra": "17",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   }
+  ]
+ },
+ "revisada": {
+  "media": 450.5999999999999,
+  "rbar": 1.7826086956521738,
+  "sigma": 0.7664068547429088,
+  "lim_x": [
+   449.57175730462376,
+   451.62824269537606
+  ],
+  "lim_r": [
+   0.0,
+   3.7693192007909317
+  ],
+  "senales": [
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "I",
+    "Subgrupo/muestra": "9",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "I",
+    "Subgrupo/muestra": "17",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "I",
+    "Subgrupo/muestra": "19",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "34",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "35",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "35",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "36",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "36",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "36",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "37",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "38",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "39",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 2,
+    "Patrón detectado": "2 de 3 puntos consecutivos más allá de 2σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento moderado de la media: cambio de lote de materia prima, ajuste de máquina, cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   },
+   {
+    "Gráfico": "Gráfico X̄ (medias)",
+    "Fase": "II",
+    "Subgrupo/muestra": "40",
+    "Regla": 4,
+    "Patrón detectado": "8 puntos consecutivos del mismo lado de la línea central",
+    "Causas típicas a investigar": "Cambio sostenido de nivel: nuevo lote o proveedor, nuevo operario, recalibración o cambio de método."
+   },
+   {
+    "Gráfico": "Gráfico R (rangos)",
+    "Fase": "I",
+    "Subgrupo/muestra": "17",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   }
+  ]
+ },
+ "ewma_senales": [
+  "9",
+  "10",
+  "11",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39",
+  "40"
+ ],
+ "cusum_senales": [
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "19",
+  "23",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39",
+  "40"
+ ],
+ "primera_senal_fase2": {
+  "Shewhart regla 1": 36,
+  "Shewhart reglas 1-4": 34,
+  "EWMA": 35,
+  "CUSUM": 35
+ },
+ "normalidad": {
+  "tabla": [
+   {
+    "Prueba": "Shapiro-Wilk",
+    "Estadístico": "W",
+    "Valor": 0.9649530634344315,
+    "p-valor": 0.0041817648289695815,
+    "Decisión (α = 0.05)": "Se rechaza normalidad"
+   },
+   {
+    "Prueba": "Anderson-Darling",
+    "Estadístico": "A² (A²* ajustado = 1.8221)",
+    "Valor": 1.8100002236092934,
+    "p-valor": 0.0001177453183642564,
+    "Decisión (α = 0.05)": "Se rechaza normalidad"
+   },
+   {
+    "Prueba": "Jarque-Bera",
+    "Estadístico": "JB",
+    "Valor": 0.2988787863100541,
+    "p-valor": 0.8611906304851087,
+    "Decisión (α = 0.05)": "No se rechaza normalidad"
+   }
+  ],
+  "asimetria": 0.026196742136216797,
+  "curtosis": -0.20125828667610257,
+  "conclusion": "Se rechaza la normalidad (Shapiro-Wilk p = 0.0042 < 0.05). Revise si hay causas especiales o mezcla de poblaciones; las cartas X̄ son robustas por el teorema central del límite, pero para capacidad considere la transformación de Box-Cox. Los 115 datos solo toman 9 valores distintos: la resolución del instrumento genera empates, y con ellos Shapiro-Wilk y Anderson-Darling tienden a rechazar la normalidad aunque la forma sea normal. Revise la asimetría, la curtosis, Jarque-Bera y el gráfico de probabilidad; si la forma es simétrica, el rechazo se atribuye a la resolución de la medición.",
+  "distintos": 9,
+  "n": 115
+ },
+ "descriptiva_f1_depurada": {
+  "Número de datos (N)": 115.0,
+  "Media": 450.6,
+  "Mediana": 450.5,
+  "Desviación estándar (s)": 0.8303455209793849,
+  "Varianza": 0.689473684210526,
+  "Coeficiente de variación (%)": 0.18427552618273077,
+  "Mínimo": 448.5,
+  "Cuartil 1": 450.0,
+  "Cuartil 3": 451.0,
+  "Máximo": 453.0,
+  "Rango": 4.5,
+  "Asimetría": 0.026196742136216797,
+  "Curtosis (exceso)": -0.20125828667610257
+ },
+ "independencia_individuales": {
+  "tabla": [
+   {
+    "Prueba": "Rachas sobre la mediana (Wald-Wolfowitz)",
+    "Detalle": "40 rachas (esperadas 43.2)",
+    "Estadístico": -0.6999432601307102,
+    "p-valor": 0.48396273964455716
+   },
+   {
+    "Prueba": "Ljung-Box Q(20)",
+    "Detalle": "Q = 20.879",
+    "Estadístico": 20.878701999640167,
+    "p-valor": 0.4043028304540491
+   },
+   {
+    "Prueba": "Autocorrelación de rezago 1",
+    "Detalle": "r₁ = -0.004 (banda ±0.183)",
+    "Estadístico": -0.003944020356233835,
+    "p-valor": NaN
+   },
+   {
+    "Prueba": "Durbin-Watson",
+    "Detalle": "d ≈ 2(1 − r₁); cerca de 2 = sin autocorrelación",
+    "Estadístico": 1.9783715012722651,
+    "p-valor": NaN
+   }
+  ],
+  "conclusion": "No hay evidencia de dependencia: las observaciones se comportan como independientes, lo que respalda el uso de límites de Shewhart."
+ },
+ "independencia_medias": {
+  "tabla": [
+   {
+    "Prueba": "Rachas sobre la mediana (Wald-Wolfowitz)",
+    "Detalle": "14 rachas (esperadas 12.0)",
+    "Estadístico": 0.8738628975053029,
+    "p-valor": 0.38219292230511936
+   },
+   {
+    "Prueba": "Ljung-Box Q(5)",
+    "Detalle": "Q = 2.004",
+    "Estadístico": 2.00379031835928,
+    "p-valor": 0.848620324802089
+   },
+   {
+    "Prueba": "Autocorrelación de rezago 1",
+    "Detalle": "r₁ = -0.178 (banda ±0.409)",
+    "Estadístico": -0.17783505154637844,
+    "p-valor": NaN
+   },
+   {
+    "Prueba": "Durbin-Watson",
+    "Detalle": "d ≈ 2(1 − r₁); cerca de 2 = sin autocorrelación",
+    "Estadístico": 2.0257731958762717,
+    "p-valor": NaN
+   }
+  ],
+  "conclusion": "No hay evidencia de dependencia: las observaciones se comportan como independientes, lo que respalda el uso de límites de Shewhart."
+ },
+ "normalidad_medias": {
+  "tabla": [
+   {
+    "Prueba": "Shapiro-Wilk",
+    "Estadístico": "W",
+    "Valor": 0.9622182484453408,
+    "p-valor": 0.5095968917018514,
+    "Decisión (α = 0.05)": "No se rechaza normalidad"
+   },
+   {
+    "Prueba": "Anderson-Darling",
+    "Estadístico": "A² (A²* ajustado = 0.4372)",
+    "Valor": 0.42164062229973,
+    "p-valor": 0.29618683810389507,
+    "Decisión (α = 0.05)": "No se rechaza normalidad"
+   },
+   {
+    "Prueba": "Jarque-Bera",
+    "Estadístico": "JB",
+    "Valor": 0.4324309864201297,
+    "p-valor": 0.805561690093568,
+    "Decisión (α = 0.05)": "No se rechaza normalidad"
+   }
+  ]
+ },
+ "capacidad": {
+  "resumen": {
+   "N": 115,
+   "media": 450.6,
+   "sigma_dentro": 0.7664068547429088,
+   "sigma_total": 0.8303455209793849,
+   "LIE": 447.0,
+   "LSE": 453.0,
+   "objetivo": 450.0,
+   "Cp": 1.3047900000000001,
+   "Cpk": 1.04383199999999,
+   "Cpu": 1.04383199999999,
+   "Cpl": 1.56574800000001,
+   "Pp": 1.2043179311914747,
+   "Ppk": 0.9634543449531706,
+   "Cpm": 0.9761447514212004,
+   "k_descentrado": 0.2000000000000076,
+   "ppm_corto": 870.9092529490099,
+   "ppm_largo": 1931.2558333467987,
+   "ppm_observado": 0.0,
+   "ppm_si_centrado": 90.64055571392484,
+   "bilateral": true,
+   "cpk_minimo": 1.33,
+   "relacion_sigmas": 1.0834265323186916
+  },
+  "indices": [
+   {
+    "Índice": "Cp (potencial, σ dentro)",
+    "Valor": 1.3047900000000001,
+    "IC inferior": 1.1355348571558501,
+    "IC superior": 1.4737780761886399,
+    "Interpretación": "Clase 2. Parcialmente adecuado: requiere un control estricto."
+   },
+   {
+    "Índice": "Cpu (lado superior)",
+    "Valor": 1.04383199999999,
+    "IC inferior": NaN,
+    "IC superior": NaN,
+    "Interpretación": "Capacidad respecto al LSE."
+   },
+   {
+    "Índice": "Cpl (lado inferior)",
+    "Valor": 1.56574800000001,
+    "IC inferior": NaN,
+    "IC superior": NaN,
+    "Interpretación": "Capacidad respecto al LIE."
+   },
+   {
+    "Índice": "Cpk (real, σ dentro)",
+    "Valor": 1.04383199999999,
+    "IC inferior": 0.8952741482201592,
+    "IC superior": 1.1923898517798213,
+    "Interpretación": "Por debajo del mínimo recomendado (1.33)."
+   },
+   {
+    "Índice": "Pp (desempeño, σ total)",
+    "Valor": 1.2043179311914747,
+    "IC inferior": 1.0480958544790655,
+    "IC superior": 1.3602935060437726,
+    "Interpretación": "Usa la variación total (largo plazo)."
+   },
+   {
+    "Índice": "Ppk (desempeño, σ total)",
+    "Valor": 0.9634543449531706,
+    "IC inferior": 0.8243461804857326,
+    "IC superior": 1.1025625094206086,
+    "Interpretación": "Usa la variación total (largo plazo)."
+   },
+   {
+    "Índice": "Cpm (Taguchi, respecto al objetivo)",
+    "Valor": 0.9761447514212004,
+    "IC inferior": NaN,
+    "IC superior": NaN,
+    "Interpretación": "Penaliza la distancia entre la media y el valor objetivo."
+   }
+  ],
+  "fraccion": [
+   {
+    "Fuente": "Esperada, corto plazo (σ dentro)",
+    "Bajo el LIE (ppm)": 1.3184768604377741,
+    "Sobre el LSE (ppm)": 869.5907760885722,
+    "Total (ppm)": 870.9092529490099,
+    "Total (%)": 0.08709092529490099,
+    "Z benchmark": 3.1310510986119655
+   },
+   {
+    "Fuente": "Esperada, largo plazo (σ total)",
+    "Bajo el LIE (ppm)": 7.26998601398849,
+    "Sobre el LSE (ppm)": 1923.9858473328102,
+    "Total (ppm)": 1931.2558333467987,
+    "Total (%)": 0.19312558333467986,
+    "Z benchmark": 2.8891773470103783
+   },
+   {
+    "Fuente": "Observada en la muestra (N = 115)",
+    "Bajo el LIE (ppm)": 0.0,
+    "Sobre el LSE (ppm)": 0.0,
+    "Total (ppm)": 0.0,
+    "Total (%)": 0.0,
+    "Z benchmark": Infinity
+   }
+  ],
+  "conclusiones": [
+   "Cp = 1.305 (Clase 2): la amplitud de la especificación equivale a 1.30 veces la variación natural del proceso (6σ̂). Parcialmente adecuado: requiere un control estricto.",
+   "El proceso está descentrado (k = 20.0 % de la semiamplitud), más cerca del límite superior: Cpk = 1.044 < Cp. Centrar el proceso en el valor nominal llevaría la fracción no conforme a ≈ 91 ppm.",
+   "Cpk = 1.044: el proceso NO cumple el mínimo recomendado de 1.33 para un proceso existente.",
+   "Fracción no conforme esperada: 871 ppm a corto plazo y 1931 ppm a largo plazo; observada en la muestra: 0 ppm."
+  ]
+ },
+ "dictamen": [
+  "Estable pero no capaz",
+  "La variación es de causas comunes y excede lo que permite la especificación: se requieren cambios en el sistema (método, equipo, material) para reducir la variación o centrar el proceso. Mientras tanto, inspección 100 % o muestreo."
+ ],
+ "escenarios_mejora": {
+  "actual": {
+   "media": 450.6,
+   "sigma": 0.7664068547429088,
+   "Cpk": 1.04383199999999,
+   "ppm": 870.9092529490099
+  },
+  "centrado": {
+   "media": 450.0,
+   "sigma": 0.7664068547429088,
+   "Cpk": 1.3047900000000001,
+   "ppm": 90.64055571392507
+  },
+  "centrado_y_sigma_0.6": {
+   "media": 450.0,
+   "sigma": 0.6,
+   "Cpk": 1.6666666666666667,
+   "ppm": 0.5733031437583865
+  }
+ },
+ "arl_actual": {
+  "ARL0": 370.3983473449564,
+  "ARL1": 4.495312226614423,
+  "ATS0_h": 123.46611578165212,
+  "ATS1_h": 1.4984374088714745,
+  "carga": 15.0,
+  "delta_mm": 0.7664068547429088
+ },
+ "tabla_arl": [
+  {
+   "n": 1,
+   "δ (en σ)": 0.0,
+   "β": 0.9973002039367398,
+   "Potencia 1−β": 0.002699796063260207,
+   "ARL": 370.3983473449564,
+   "ATS (h)": 370.3983473449564
+  },
+  {
+   "n": 1,
+   "δ (en σ)": 0.5,
+   "β": 0.9935577055951883,
+   "Potencia 1−β": 0.006442294404811699,
+   "ARL": 155.22420075262437,
+   "ATS (h)": 155.22420075262437
+  },
+  {
+   "n": 1,
+   "δ (en σ)": 1.0,
+   "β": 0.9772181968099877,
+   "Potencia 1−β": 0.02278180319001233,
+   "ARL": 43.894681718539545,
+   "ATS (h)": 43.894681718539545
+  },
+  {
+   "n": 1,
+   "δ (en σ)": 1.5,
+   "β": 0.9331894010580172,
+   "Potencia 1−β": 0.06681059894198282,
+   "ARL": 14.967685005613896,
+   "ATS (h)": 14.967685005613896
+  },
+  {
+   "n": 1,
+   "δ (en σ)": 2.0,
+   "β": 0.841344459416971,
+   "Potencia 1−β": 0.158655540583029,
+   "ARL": 6.302962987143026,
+   "ATS (h)": 6.302962987143026
+  },
+  {
+   "n": 1,
+   "δ (en σ)": 3.0,
+   "β": 0.49999999901341236,
+   "Potencia 1−β": 0.5000000009865877,
+   "ARL": 1.9999999960536492,
+   "ATS (h)": 1.9999999960536492
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 0.0,
+   "β": 0.9973002039367398,
+   "Potencia 1−β": 0.002699796063260207,
+   "ARL": 370.3983473449564,
+   "ATS (h)": 370.3983473449564
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 0.5,
+   "β": 0.9835222581011164,
+   "Potencia 1−β": 0.016477741898883624,
+   "ARL": 60.687927152673176,
+   "ATS (h)": 60.687927152673176
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 1.0,
+   "β": 0.8975908410932583,
+   "Potencia 1−β": 0.10240915890674174,
+   "ARL": 9.764751616704945,
+   "ATS (h)": 9.764751616704945
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 1.5,
+   "β": 0.6561299317303179,
+   "Potencia 1−β": 0.34387006826968214,
+   "ARL": 2.90807514894185,
+   "ATS (h)": 2.90807514894185
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 2.0,
+   "β": 0.3212874722684786,
+   "Potencia 1−β": 0.6787125277315214,
+   "ARL": 1.4733778428141384,
+   "ATS (h)": 1.4733778428141384
+  },
+  {
+   "n": 3,
+   "δ (en σ)": 3.0,
+   "β": 0.014040517722563718,
+   "Potencia 1−β": 0.9859594822774362,
+   "ARL": 1.0142404611699987,
+   "ATS (h)": 1.0142404611699987
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 0.0,
+   "β": 0.9973002039367398,
+   "Potencia 1−β": 0.002699796063260207,
+   "ARL": 370.3983473449564,
+   "ATS (h)": 370.3983473449564
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 0.5,
+   "β": 0.9700605787724345,
+   "Potencia 1−β": 0.029939421227565544,
+   "ARL": 33.400779273558214,
+   "ATS (h)": 33.400779273558214
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 1.0,
+   "β": 0.7775460413896245,
+   "Potencia 1−β": 0.22245395861037554,
+   "ARL": 4.495312226614423,
+   "ATS (h)": 4.495312226614423
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 1.5,
+   "β": 0.3616312341865811,
+   "Potencia 1−β": 0.638368765813419,
+   "ARL": 1.5664926818995994,
+   "ATS (h)": 1.5664926818995994
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 2.0,
+   "β": 0.07049208394699581,
+   "Potencia 1−β": 0.9295079160530042,
+   "ARL": 1.0758380673575416,
+   "ATS (h)": 1.0758380673575416
+  },
+  {
+   "n": 5,
+   "δ (en σ)": 3.0,
+   "β": 0.00010436726271053658,
+   "Potencia 1−β": 0.9998956327372894,
+   "ARL": 1.000104378156373,
+   "ATS (h)": 1.000104378156373
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 0.0,
+   "β": 0.9973002039367398,
+   "Potencia 1−β": 0.002699796063260207,
+   "ARL": 370.3983473449564,
+   "ATS (h)": 370.3983473449564
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 0.5,
+   "β": 0.9220279403342221,
+   "Potencia 1−β": 0.07797205966577792,
+   "ARL": 12.8251068945265,
+   "ATS (h)": 12.8251068945265
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 1.0,
+   "β": 0.43554360268969305,
+   "Potencia 1−β": 0.564456397310307,
+   "ARL": 1.771616026968785,
+   "ATS (h)": 1.771616026968785
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 1.5,
+   "β": 0.04063044494467853,
+   "Potencia 1−β": 0.9593695550553215,
+   "ARL": 1.0423511927500508,
+   "ATS (h)": 1.0423511927500508
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 2.0,
+   "β": 0.00044279830990258764,
+   "Potencia 1−β": 0.9995572016900974,
+   "ARL": 1.0004429944671038,
+   "ATS (h)": 1.0004429944671038
+  },
+  {
+   "n": 10,
+   "δ (en σ)": 3.0,
+   "β": 4.382970970297778e-11,
+   "Potencia 1−β": 0.9999999999561703,
+   "ARL": 1.0000000000438298,
+   "ATS (h)": 1.0000000000438298
+  }
+ ],
+ "mejores_disenos": [
+  {
+   "n": 6,
+   "h (horas)": 1.0,
+   "Carga muestral n/h (unid./hora)": 6.0,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 370.3983473449564,
+   "ARL1": 3.4366062489926916,
+   "ATS1 (horas)": 3.4366062489926916,
+   "Unidades inspeccionadas hasta detectar": 20.619637493956148
+  },
+  {
+   "n": 10,
+   "h (horas)": 2.0,
+   "Carga muestral n/h (unid./hora)": 5.0,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 740.7966946899128,
+   "ARL1": 1.771616026968785,
+   "ATS1 (horas)": 3.54323205393757,
+   "Unidades inspeccionadas hasta detectar": 17.71616026968785
+  },
+  {
+   "n": 9,
+   "h (horas)": 2.0,
+   "Carga muestral n/h (unid./hora)": 4.5,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 740.7966946899128,
+   "ARL1": 1.9999999960536492,
+   "ATS1 (horas)": 3.9999999921072984,
+   "Unidades inspeccionadas hasta detectar": 17.999999964482843
+  },
+  {
+   "n": 5,
+   "h (horas)": 1.0,
+   "Carga muestral n/h (unid./hora)": 5.0,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 370.3983473449564,
+   "ARL1": 4.495312226614423,
+   "ATS1 (horas)": 4.495312226614423,
+   "Unidades inspeccionadas hasta detectar": 22.476561133072117
+  },
+  {
+   "n": 8,
+   "h (horas)": 2.0,
+   "Carga muestral n/h (unid./hora)": 4.0,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 740.7966946899128,
+   "ARL1": 2.3154222401091973,
+   "ATS1 (horas)": 4.630844480218395,
+   "Unidades inspeccionadas hasta detectar": 18.52337792087358
+  },
+  {
+   "n": 3,
+   "h (horas)": 0.5,
+   "Carga muestral n/h (unid./hora)": 6.0,
+   "ARL0": 370.3983473449564,
+   "ATS0 (horas)": 185.1991736724782,
+   "ARL1": 9.764751616704945,
+   "ATS1 (horas)": 4.882375808352473,
+   "Unidades inspeccionadas hasta detectar": 29.294254850114836
+  }
+ ],
+ "perfil": [
+  {
+   "Esquema": "Shewhart X̄ (regla 1)",
+   "δ (en σ)": 0.0,
+   "ARL simulado": 375.70125,
+   "EE": 6.047724044311084
+  },
+  {
+   "Esquema": "Shewhart X̄ (regla 1)",
+   "δ (en σ)": 0.5,
+   "ARL simulado": 33.4125,
+   "EE": 0.5127198858615096
+  },
+  {
+   "Esquema": "Shewhart X̄ (regla 1)",
+   "δ (en σ)": 1.0,
+   "ARL simulado": 4.47525,
+   "EE": 0.06271925769408009
+  },
+  {
+   "Esquema": "Shewhart X̄ (regla 1)",
+   "δ (en σ)": 1.5,
+   "ARL simulado": 1.56675,
+   "EE": 0.014515122513103105
+  },
+  {
+   "Esquema": "Shewhart X̄ (regla 1)",
+   "δ (en σ)": 2.0,
+   "ARL simulado": 1.07675,
+   "EE": 0.0046605031324269955
+  },
+  {
+   "Esquema": "Shewhart + reglas 2-4",
+   "δ (en σ)": 0.0,
+   "ARL simulado": 91.80325,
+   "EE": 1.4035004767567554
+  },
+  {
+   "Esquema": "Shewhart + reglas 2-4",
+   "δ (en σ)": 0.5,
+   "ARL simulado": 7.70225,
+   "EE": 0.0787183134829145
+  },
+  {
+   "Esquema": "Shewhart + reglas 2-4",
+   "δ (en σ)": 1.0,
+   "ARL simulado": 2.61525,
+   "EE": 0.021407800747816546
+  },
+  {
+   "Esquema": "Shewhart + reglas 2-4",
+   "δ (en σ)": 1.5,
+   "ARL simulado": 1.425,
+   "EE": 0.00957165890342635
+  },
+  {
+   "Esquema": "Shewhart + reglas 2-4",
+   "δ (en σ)": 2.0,
+   "ARL simulado": 1.07075,
+   "EE": 0.004100647900429984
+  },
+  {
+   "Esquema": "EWMA (λ = 0.2, L = 2.86)",
+   "δ (en σ)": 0.0,
+   "ARL simulado": 363.421,
+   "EE": 5.866342796768896
+  },
+  {
+   "Esquema": "EWMA (λ = 0.2, L = 2.86)",
+   "δ (en σ)": 0.5,
+   "ARL simulado": 7.18825,
+   "EE": 0.0753201252301878
+  },
+  {
+   "Esquema": "EWMA (λ = 0.2, L = 2.86)",
+   "δ (en σ)": 1.0,
+   "ARL simulado": 2.2925,
+   "EE": 0.018126446963480734
+  },
+  {
+   "Esquema": "EWMA (λ = 0.2, L = 2.86)",
+   "δ (en σ)": 1.5,
+   "ARL simulado": 1.35425,
+   "EE": 0.008497487051861223
+  },
+  {
+   "Esquema": "EWMA (λ = 0.2, L = 2.86)",
+   "δ (en σ)": 2.0,
+   "ARL simulado": 1.05575,
+   "EE": 0.0036624906599824407
+  },
+  {
+   "Esquema": "CUSUM (k = 0.5, h = 5)",
+   "δ (en σ)": 0.0,
+   "ARL simulado": 453.172,
+   "EE": 6.799870534710364
+  },
+  {
+   "Esquema": "CUSUM (k = 0.5, h = 5)",
+   "δ (en σ)": 0.5,
+   "ARL simulado": 8.68075,
+   "EE": 0.06354794996584244
+  },
+  {
+   "Esquema": "CUSUM (k = 0.5, h = 5)",
+   "δ (en σ)": 1.0,
+   "ARL simulado": 3.52925,
+   "EE": 0.01708022373640701
+  },
+  {
+   "Esquema": "CUSUM (k = 0.5, h = 5)",
+   "δ (en σ)": 1.5,
+   "ARL simulado": 2.322,
+   "EE": 0.00845410361700114
+  },
+  {
+   "Esquema": "CUSUM (k = 0.5, h = 5)",
+   "δ (en σ)": 2.0,
+   "ARL simulado": 1.86975,
+   "EE": 0.006120097897466073
+  }
+ ],
+ "p": {
+  "prueba": 0.12023460410557185,
+  "revisada": 0.10062893081761007,
+  "notas": [
+   "n·p̄ = 1.21 < 5: la aproximación normal de los límites es pobre; interprete con cuidado o aumente el tamaño de muestra.",
+   "LCI = 0: para tener LCI > 0 (y poder detectar mejoras) se requiere n > 80 (n > (1−p̄)L²/p̄)."
+  ],
+  "senales_prueba": [
+   {
+    "Gráfico": "Gráfico p (proporción de defectuosos)",
+    "Fase": "I",
+    "Subgrupo/muestra": "12",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   }
+  ],
+  "senales_rev": [
+   {
+    "Gráfico": "Gráfico p (proporción de defectuosos)",
+    "Fase": "I",
+    "Subgrupo/muestra": "12",
+    "Regla": 1,
+    "Patrón detectado": "1 punto fuera de los límites de control",
+    "Causas típicas a investigar": "Causa especial puntual: error de medición o de registro, material defectuoso, falla o ajuste de máquina, cambio de operario."
+   }
+  ],
+  "lcs_rango": [
+   0.28485306309279,
+   0.36116119719758466
+  ]
+ },
+ "u": {
+  "prueba": 0.39882697947214074,
+  "revisada": 0.37735849056603776,
+  "senales_prueba": [
+   {
+    "Gráfico": "Gráfico u (defectos por unidad)",
+    "Fase": "I",
+    "Subgrupo/muestra": "18",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   }
+  ],
+  "senales_rev": [
+   {
+    "Gráfico": "Gráfico u (defectos por unidad)",
+    "Fase": "I",
+    "Subgrupo/muestra": "18",
+    "Regla": 3,
+    "Patrón detectado": "4 de 5 puntos consecutivos más allá de 1σ del mismo lado",
+    "Causas típicas a investigar": "Desplazamiento pequeño y sostenido de la media."
+   }
+  ],
+  "lcs_rango": [
+   0.7535358874976772,
+   0.9093536671649692
+  ]
+ },
+ "n_promedio_attr": 17.8,
+ "pareto": [
+  {
+   "Tipo de defecto": "salpicadura_escoria",
+   "Conteo": 64.0,
+   "%": 30.476190476190474,
+   "% acumulado": 30.476190476190474
+  },
+  {
+   "Tipo de defecto": "pintura_defectuosa",
+   "Conteo": 41.0,
+   "%": 19.523809523809526,
+   "% acumulado": 50.0
+  },
+  {
+   "Tipo de defecto": "rebaba_filo",
+   "Conteo": 39.0,
+   "%": 18.571428571428573,
+   "% acumulado": 68.57142857142857
+  },
+  {
+   "Tipo de defecto": "porosidad",
+   "Conteo": 23.0,
+   "%": 10.952380952380953,
+   "% acumulado": 79.52380952380952
+  },
+  {
+   "Tipo de defecto": "cordon_incompleto",
+   "Conteo": 20.0,
+   "%": 9.523809523809524,
+   "% acumulado": 89.04761904761904
+  },
+  {
+   "Tipo de defecto": "falta_escuadra",
+   "Conteo": 12.0,
+   "%": 5.714285714285714,
+   "% acumulado": 94.76190476190474
+  },
+  {
+   "Tipo de defecto": "perforacion_desalineada",
+   "Conteo": 10.0,
+   "%": 4.761904761904762,
+   "% acumulado": 99.5238095238095
+  },
+  {
+   "Tipo de defecto": "otros",
+   "Conteo": 1.0,
+   "%": 0.47619047619047616,
+   "% acumulado": 99.99999999999999
+  }
+ ],
+ "n_para_lci": 80.4375,
+ "planes": {
+  "A: NCA 2.5 % / NCL 10 %": {
+   "n": 60,
+   "c": 3,
+   "Pa(NCA)": 0.9709224810849687,
+   "Pa(NCL)": 0.09503538481309291,
+   "α real": 0.029077518915031297,
+   "β real": 0.09503538481309291,
+   "modelo": "hipergeometrico",
+   "Riesgo del productor α": 0.029077518915031297,
+   "Riesgo del consumidor β": 0.09503538481309291,
+   "AOQL": 0.022676606374929152,
+   "p en el AOQL": 0.048537844859436505,
+   "p de indiferencia (Pa = 0.5)": 0.060859480222992236,
+   "Pa con p = p̄ actual": 0.09503538481309291,
+   "N": 200
+  },
+  "B: NCA 2.5 % / NCL 15 %": {
+   "n": 33,
+   "c": 2,
+   "Pa(NCA)": 0.9673864331846046,
+   "Pa(NCL)": 0.0886617606717486,
+   "α real": 0.0326135668153954,
+   "β real": 0.0886617606717486,
+   "modelo": "hipergeometrico",
+   "Riesgo del productor α": 0.0326135668153954,
+   "Riesgo del consumidor β": 0.0886617606717486,
+   "AOQL": 0.03456698573988999,
+   "p en el AOQL": 0.06718776896961447,
+   "p de indiferencia (Pa = 0.5)": 0.08020992254339429,
+   "Pa con p = p̄ actual": 0.3228241709602169,
+   "N": 200
+  }
+ }
+}

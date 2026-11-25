@@ -1,0 +1,68 @@
+Resultado de las pruebas de validación de Vigía CEP
+Versión: Vigía CEP 1.2.0
+Fecha: 2026-11-21 18:06  ·  Python 3.13.18
+Comando: python -m pytest pruebas -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: VigiaCEP
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 54 items
+
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[2] PASSED [  1%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[3] PASSED [  3%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[4] PASSED [  5%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[5] PASSED [  7%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[6] PASSED [  9%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[7] PASSED [ 11%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[8] PASSED [ 12%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[9] PASSED [ 14%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[10] PASSED [ 16%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[15] PASSED [ 18%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[20] PASSED [ 20%]
+pruebas/test_validacion.py::test_constantes_coinciden_con_tabla[25] PASSED [ 22%]
+pruebas/test_validacion.py::test_c4[2] PASSED                            [ 24%]
+pruebas/test_validacion.py::test_c4[3] PASSED                            [ 25%]
+pruebas/test_validacion.py::test_c4[4] PASSED                            [ 27%]
+pruebas/test_validacion.py::test_c4[5] PASSED                            [ 29%]
+pruebas/test_validacion.py::test_c4[10] PASSED                           [ 31%]
+pruebas/test_validacion.py::test_c4[25] PASSED                           [ 33%]
+pruebas/test_validacion.py::test_constantes_derivadas_n5 PASSED          [ 35%]
+pruebas/test_validacion.py::test_xbar_r_anillos_montgomery PASSED        [ 37%]
+pruebas/test_validacion.py::test_xbar_s_anillos PASSED                   [ 38%]
+pruebas/test_validacion.py::test_xbar_s_tamano_variable_coincide_con_constante PASSED [ 40%]
+pruebas/test_validacion.py::test_i_mr PASSED                             [ 42%]
+pruebas/test_validacion.py::test_fase2_detecta_corrimiento_conocido PASSED [ 44%]
+pruebas/test_validacion.py::test_exclusion_recalcula_limites PASSED      [ 46%]
+pruebas/test_validacion.py::test_carta_p_jugo_montgomery PASSED          [ 48%]
+pruebas/test_validacion.py::test_carta_p_jugo_revisada PASSED            [ 50%]
+pruebas/test_validacion.py::test_carta_np_equivale_a_p PASSED            [ 51%]
+pruebas/test_validacion.py::test_carta_c_tarjetas_montgomery PASSED      [ 53%]
+pruebas/test_validacion.py::test_carta_u_con_unidades_iguales_es_c PASSED [ 55%]
+pruebas/test_validacion.py::test_recomendacion_atributos PASSED          [ 57%]
+pruebas/test_validacion.py::test_reglas_patrones PASSED                  [ 59%]
+pruebas/test_validacion.py::test_anderson_darling_vs_scipy PASSED        [ 61%]
+pruebas/test_validacion.py::test_normalidad_detecta_exponencial PASSED   [ 62%]
+pruebas/test_validacion.py::test_independencia_detecta_ar1 PASSED        [ 64%]
+pruebas/test_validacion.py::test_capacidad_formulas PASSED               [ 66%]
+pruebas/test_validacion.py::test_capacidad_unilateral PASSED             [ 68%]
+pruebas/test_validacion.py::test_ic_cp_contiene_estimacion PASSED        [ 70%]
+pruebas/test_validacion.py::test_arl0_shewhart PASSED                    [ 72%]
+pruebas/test_validacion.py::test_arl1_montgomery PASSED                  [ 74%]
+pruebas/test_validacion.py::test_simulacion_concuerda_con_formula PASSED [ 75%]
+pruebas/test_validacion.py::test_cusum_arl0_publicado PASSED             [ 77%]
+pruebas/test_validacion.py::test_reglas_western_electric_arl0 PASSED     [ 79%]
+pruebas/test_validacion.py::test_arl_s_y_r_en_control PASSED             [ 81%]
+pruebas/test_validacion.py::test_arl_p_discreto PASSED                   [ 83%]
+pruebas/test_validacion.py::test_plan_n89_c2 PASSED                      [ 85%]
+pruebas/test_validacion.py::test_disenar_plan_cumple_riesgos PASSED      [ 87%]
+pruebas/test_validacion.py::test_plan_doble_y_asn PASSED                 [ 88%]
+pruebas/test_validacion.py::test_plan_variables PASSED                   [ 90%]
+pruebas/test_validacion.py::test_lectura_csv_punto_y_coma_coma_decimal PASSED [ 92%]
+pruebas/test_validacion.py::test_plantilla_variables_diligenciada_se_lee PASSED [ 94%]
+pruebas/test_validacion.py::test_caso_taller_lectura_y_fases PASSED      [ 96%]
+pruebas/test_validacion.py::test_caso_taller_limites_de_prueba_y_revisados PASSED [ 98%]
+pruebas/test_validacion.py::test_caso_taller_carta_p_excluye_dia_12 PASSED [100%]
+
+============================== 54 passed in 2.42s ==============================

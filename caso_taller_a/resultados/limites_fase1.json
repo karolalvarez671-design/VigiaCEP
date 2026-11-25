@@ -1,0 +1,46 @@
+{
+  "software": "Vigía CEP v1.2.0",
+  "generado": "2026-11-21T18:03:57",
+  "metadatos": {
+    "Empresa": "Taller metalmecánico A (Santa Marta)",
+    "Proceso / operación": "Corte del brazo horizontal en la Tronzadora 1",
+    "Producto": "Soporte para unidad condensadora de aire acondicionado",
+    "Característica de calidad": "Longitud del brazo horizontal (nominal 450 mm, LIE 447 mm, LSE 453 mm)",
+    "Unidad de medida": "mm",
+    "Fuente de datos": "Archivo: Taller_A_datos.xlsx"
+  },
+  "variables": {
+    "tipo": "xbar_r",
+    "n": 5,
+    "media": 450.5999999999999,
+    "sigma_dentro": 0.7664068547429088,
+    "metodo_sigma": "σ̂ = R̄/d2 = 1.78261/2.32593",
+    "excluidos_fase_I": [
+      "9",
+      "17"
+    ],
+    "carta_posicion": {
+      "LCI": 449.57175730462376,
+      "LC": 450.5999999999999,
+      "LCS": 451.62824269537606
+    },
+    "carta_dispersion": {
+      "LCI": 0.0,
+      "LC": 1.7826086956521738,
+      "LCS": 3.7693192007909317
+    }
+  },
+  "atributos": {
+    "tipo": "p",
+    "parametro": 0.10062893081761007,
+    "centro": 0.10062893081761007,
+    "excluidos_fase_I": [
+      "12"
+    ],
+    "limites": {
+      "LCI": 0.0,
+      "LC": 0.10062893081761007,
+      "LCS": "variable (0.2849 a 0.3612)"
+    }
+  }
+}

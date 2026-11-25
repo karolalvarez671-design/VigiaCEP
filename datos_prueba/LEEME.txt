@@ -1,0 +1,34 @@
+DATOS DE PRUEBA DE VIGÍA CEP
+=============================
+
+Sirven para verificar que el software calcula bien. Los datos de la empresa del caso aplicado están en
+caso_taller_a/datos/.
+
+1. anillos_piston_montgomery.csv
+   Diámetro interior de anillos de pistón (mm), 25 subgrupos de n = 5 (formato ancho: x1..x5).
+   Fuente: Montgomery, D. C. (2020). Introduction to statistical quality control (8th ed.). Wiley. Capítulo 6.
+   Resultado publicado: x̿ = 74.001, R̄ = 0.023, X̄: LCI = 73.988, LCS = 74.014; R: LCS = 0.049. Todo en control.
+
+2. jugo_naranja_montgomery.csv
+   Envases de jugo de naranja no conformes, 30 muestras de n = 50 (carta p).
+   Fuente: Montgomery (2020), capítulo 7 (carta p, límites de prueba).
+   Resultado publicado: p̄ = 0.2313, LCS = 0.4102, LCI = 0.0524; muestras 15 y 23 fuera de control.
+   Al excluirlas (causas asignables documentadas en el texto): p̄ = 0.2150, LCS = 0.3893, LCI = 0.0407.
+
+3. tarjetas_circuito_montgomery.csv
+   No conformidades en muestras de 100 tarjetas de circuito impreso, 26 muestras (carta c).
+   Fuente: Montgomery (2020), capítulo 7 (carta c).
+   Resultado publicado: c̄ = 19.85, LCS = 33.22, LCI = 6.48; muestras 6 y 20 fuera de control.
+   Al excluirlas: c̄ = 19.67, LCS = 32.97, LCI = 6.36.
+
+4. prueba_corrimiento_fase2.csv
+   Caso de prueba con resultado conocido de antemano para verificar la Fase II: 25 subgrupos de Fase I
+   y 15 de Fase II (n = 5), con media 10.00 y σ = 0.05 hasta el subgrupo 30 y un corrimiento de +1.5σ
+   desde el subgrupo 31. El software debe señalar el corrimiento y no dar señales antes del subgrupo 31.
+   No corresponde a ningún proceso de la empresa del caso aplicado.
+
+Cómo verificar: en una terminal, dentro de la carpeta del proyecto, ejecute
+    python -m pytest pruebas -v
+Las pruebas comparan los resultados del software con los valores publicados de arriba
+(y con propiedades teóricas como ARL0 = 370.4 para límites 3σ). Resultado de referencia
+en docs/evidencia/resultado_pruebas.txt.

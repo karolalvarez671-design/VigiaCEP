@@ -1,0 +1,54 @@
+CASO APLICADO: TALLER METALMECÁNICO A (SANTA MARTA)
+===================================================
+
+Esta carpeta contiene el caso aplicado del informe técnico: control estadístico de la longitud del
+brazo horizontal de los soportes para unidades condensadoras de aire acondicionado (nominal de 450 mm,
+especificación de 447 a 453 mm) y de los defectos encontrados en la inspección final de los soportes
+terminados. Por confidencialidad se omiten los nombres del taller y de sus trabajadores.
+
+Contenido
+---------
+datos/Taller_A_datos.xlsx
+    Libro de datos del caso (Anexo A del informe):
+    - Corte_variables: 40 subgrupos de 5 brazos consecutivos medidos en la visita técnica
+      (Fase I: 13/10/2026; Fase II: 14/10/2026), con la bitácora de campo en «observaciones».
+    - Inspeccion_atributos: 30 jornadas de la planilla de inspección final del taller, del 13/10/2026
+      al 11/11/2026 (20 de Fase I y 10 de Fase II), con los defectos por tipo.
+    - Especificaciones, Protocolo, Entrevista y Evidencias.
+
+analisis_caso.py
+    Corre el análisis completo del informe con el núcleo de Vigía CEP y escribe los resultados en
+    resultados/. Uso, desde la carpeta VigiaCEP y con el entorno del programa activo:
+        python caso_taller_a/analisis_caso.py
+    Las figuras PNG requieren kaleido y Google Chrome (pip install kaleido); sin ellos se genera
+    todo lo demás.
+
+resultados/
+    f1 a f14 (PNG)            Figuras del informe técnico.
+    resumen_resultados.txt    Cifras principales (límites, capacidad, ARL, planes de muestreo).
+    resultados.json           Todos los resultados numéricos del análisis.
+    reporte_caso.xlsx         Reporte del módulo 8 con todas las tablas.
+    reporte_caso.html         Reporte del módulo 8 con los gráficos interactivos (imprimible a PDF).
+    limites_fase1.json        Límites revisados de la Fase I para el monitoreo (Fase II).
+
+Cómo analizar el caso en el programa
+------------------------------------
+Opción rápida: en «Inicio», elija «Caso Taller A — longitud del brazo, X̄-R» (o las cartas p y u)
+y pulse «Cargar». El programa configura los subgrupos, las fases, los datos del caso y la especificación.
+
+Opción manual:
+1. Abra «1. Gestión de datos» y cargue datos/Taller_A_datos.xlsx.
+2. Variables: hoja Corte_variables; tipo de datos «Variables»; formato «Ancho» con las columnas x1 a x5;
+   columna del subgrupo «subgrupo»; fases definidas por la columna «fase».
+   Luego use «2. Gráficos por variables» (X̄-R), «4. Supuestos» y «5. Capacidad» con LIE 447 y LSE 453.
+3. Atributos: hoja Inspeccion_atributos; tipo de datos «Atributos»;
+   - carta p: se cuentan «Defectuosos», columna del conteo soportes_defectuosos;
+   - carta u: se cuentan «Defectos», columna del conteo defectos_totales;
+   tamaño de muestra soportes_inspeccionados; muestra «muestra»; fases por la columna «fase».
+   En «3. Gráficos por atributos», el recuadro «Pareto de tipos de defecto» ordena los tipos.
+
+Causas asignables documentadas (Fase I)
+---------------------------------------
+- Subgrupo 9: a las 10:00 se cambió el disco y no se reajustó el tope (bitácora de campo).
+- Subgrupo 17: la pieza 3 se anotó como 442 mm; error de lectura o de anotación (bitácora de campo).
+- Jornada 12 (24/10/2026, atributos): lote nuevo de electrodos E6013 sin resguardo contra la humedad (planilla del inspector).

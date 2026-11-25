@@ -1,0 +1,9 @@
+RESULTADOS PRINCIPALES — CASO TALLER METALMECÁNICO A (Vigía CEP)
+Fase I, límites de prueba: x̿ = 450.628 mm; R̄ = 2.060 mm; σ̂ = 0.886 mm; X̄ de 449.440 a 451.816 mm; R hasta 4.356 mm.
+Fase I, límites revisados (sin subgrupos 9, 17): x̿ = 450.600 mm; R̄ = 1.783 mm; σ̂ = 0.766 mm; X̄ de 449.572 a 451.628 mm; R hasta 3.769 mm.
+Fase II, primera señal: {'Shewhart regla 1': 36, 'Shewhart reglas 1-4': 34, 'EWMA': 35, 'CUSUM': 35}.
+Capacidad: Cp = 1.305; Cpk = 1.044; Pp = 1.204; Ppk = 0.963; ppm esperados a corto plazo = 871; a largo plazo = 1931. Dictamen: Estable pero no capaz.
+Carta p: p̄ de prueba = 0.1202; revisada (sin día 12) = 0.1006. Carta u: ū revisada = 0.3774.
+ARL del esquema n = 5 cada 20 min: ARL0 = 370.4; ARL1(1σ) = 4.50; ATS1 = 1.50 h; carga = 15 piezas/h.
+Plan A: NCA 2.5 % / NCL 10 %: n = 60, c = 3, α = 0.029, β = 0.095, Pa con p̄ actual = 0.095.
+Plan B: NCA 2.5 % / NCL 15 %: n = 33, c = 2, α = 0.033, β = 0.089, Pa con p̄ actual = 0.323.

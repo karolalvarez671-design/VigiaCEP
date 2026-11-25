@@ -1,0 +1,8 @@
+# Librerías requeridas por Vigía CEP (Python 3.10 o superior)
+streamlit>=1.50     # interfaz web local
+plotly>=5.24        # gráficos interactivos
+pandas>=2.1         # manejo de datos
+numpy>=1.26         # cálculo numérico
+scipy>=1.11         # distribuciones y pruebas estadísticas
+openpyxl>=3.1       # lectura y escritura de Excel
+pytest>=8.0         # pruebas de validación (opcional para usar la app)
